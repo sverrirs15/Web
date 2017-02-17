@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #333;
 }
 
+h3 {
+  font-style: italic;
+}
+
 /* Paragraph & Typographic */
 p {
   line-height: 28px;
@@ -92,7 +96,7 @@ a:after {
 .header h1 {
   font-size: 80px;
   color: white;
-  background: rgba(0,0,0,0.2);
+  /*background: rgba(0,0,0,0.2);*/
 }
 
 .header h3 {
@@ -145,6 +149,18 @@ a:after {
 .footer i {
   padding-right: 8px;
   /*color: #1abc9c;*/
+}
+
+.fooflex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  width: 950px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 /* Global Values */
